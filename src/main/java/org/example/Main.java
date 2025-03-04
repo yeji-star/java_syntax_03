@@ -5,6 +5,7 @@ package org.example;
 class Main {
     public static void main(String[] args) {
 
-        System.out.print("안녕하세요.\n안녕하세요.\n안녕하세요.\n안녕하세요.\n 안녕하세요.\n안녕하세요.\n안녕하세요.\n");
+        System.out.print("안녕하세요.\n안녕하세요." +
+                "\n안녕하세요.\n안녕하세요.\n 안녕하세요.\n안녕하세요.\n안녕하세요.\n");
     }
 }
