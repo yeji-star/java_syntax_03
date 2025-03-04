@@ -5,17 +5,13 @@ package org.example;
 class Main {
     public static void main(String[] args) {
 
-        int age = 19;
+        if (10 > 20 || 1 != 1 && 3>2) {
 
-        System.out.println("당신의 나이 : " + age);
+            System.out.println("실행됨");
 
-        if (19 >= age) { // 논리형
-            System.out.println("미성년자");
-
+        } else {
+            System.out.println("실행불가");
         }
 
-        if (20 <= age) {
-            System.out.println("성인");
-        }
     }
 }
