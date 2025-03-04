@@ -1,28 +1,21 @@
 package org.example;
 
+// 조건문의 가장 기본적인 형태
 
 class Main {
     public static void main(String[] args) {
 
-        int x = 10;
+        int age = 19;
 
-        System.out.println("x"); // 출력 : x
-        System.out.println(x); // 출력 : 10
-        System.out.println("x" + x); // 출력 : x10
-        System.out.println("x : " + x); // 출력 : x : 10
+        System.out.println("당신의 나이 : " + age);
 
+        if (19 >= age) { // 논리형
+            System.out.println("미성년자");
 
-        System.out.println("x : " + x * 5);
+        }
 
-        // 연산자 우선 순위에 의해서 처리됨
-
-        System.out.println("x : " + x + 5);
-
-        // "x : " + x + 5 -> "x : " + "10" + 5 -> "x : 10" + 5 -> "x : 10" + "5" -> "x : 105"
-
-        System.out.println("x : " +(x+5));
-
-        // 확인용
-
+        if (20 <= age) {
+            System.out.println("성인");
+        }
     }
 }
