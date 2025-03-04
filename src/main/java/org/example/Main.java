@@ -43,9 +43,9 @@ class Main {
 
         if (60 > age) {
             System.out.println("할인대상 아님");
-        } if (20 <= age) {
+         if (20 <= age) {
             System.out.println("할인대상 아님");
-        } else {
+        }} else {
             System.out.println("할인 대상");}
 
         // 출력 => 할인대상입니다. 또는 할인 대상이 아닙니다.
