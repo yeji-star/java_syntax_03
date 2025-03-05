@@ -13,5 +13,11 @@ class Main2 {
             i++;
         }
 
+        System.out.println("for문");
+
+        for (i = -100; i<=25; i++) {
+            System.out.println(i);
+        }
+
     }
 }

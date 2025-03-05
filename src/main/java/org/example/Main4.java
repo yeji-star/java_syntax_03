@@ -18,6 +18,12 @@ class Main4 {
             i--;
         }
 
+        System.out.println("for문");
+
+        for(i=1;i>=-500;i--) {
+            System.out.println(dan + " * " + i + " = " + dan * i);
+        }
+
     /*
     8 * 1000 = 8000
     ...

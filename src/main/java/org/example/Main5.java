@@ -33,5 +33,15 @@ class Main5 {
 
         System.out.println(i);
 
+        System.out.println("for문");
+
+        i = 0;
+
+        for (j=1;j<=5;j++){
+            i+=j;
+            System.out.println(i);
+
+        }
+
     }
 }

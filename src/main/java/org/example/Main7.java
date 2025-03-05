@@ -5,25 +5,30 @@ package org.example;
 
 public class Main7 {
     public static void main(String[] args) {
-
+        /* (1,2,3) * j
+         */
         // 출력
 
-        int i= 0;
+        int i = 1;
 
-        while (i < 10) {
+        while (i <= 10) {
+
+            int j = 1;
+
+            while (j <= 3) {
+                System.out.println(j);
+                j++;
+            }
 
             i++;
 
-            if (i==3){
-                continue; //break // 반복문 컨트롤
-            }
-
-            System.out.println(" i= " + i);
-
-
-            }
-
         }
+    }
+
+
+}
+
+
 
         // 1
         // 2
@@ -55,4 +60,4 @@ public class Main7 {
         // 1
         // 2
         // 3
-    }
+

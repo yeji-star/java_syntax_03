@@ -9,13 +9,17 @@ public class Main6 {
 
         while (j <= 25) {
             i += j;
-            System.out.println(i);
             j++;
         }
 
+        System.out.println(i);
 
+        System.out.println("for문");
 
-        System.out.println("====");
+        i=0;
+        for (j=-100;j<=25;j++) {
+            i+=j;
+        }
         System.out.println(i);
 
 
