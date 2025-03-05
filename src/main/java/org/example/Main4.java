@@ -17,10 +17,10 @@ class Main4 {
                     System.out.print("*");
                     k++;
                 }
-                System.out.println("");
-                i++;
+                System.out.println(" ");
+                j++;
             }
-
+            i++;
         }
 
         System.out.println("=====");
@@ -34,6 +34,8 @@ class Main4 {
             }
             System.out.println("");
         }
+
+
         for(i = n - 1; i >= 1; i--) {
             for(int k = n; k > i; k--) {
                 System.out.print(" ");
