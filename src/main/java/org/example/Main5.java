@@ -16,6 +16,7 @@ class Main5 {
         System.out.printf("%d", a);
         //decimal <- 10진수(정수) 그렇기에 %d로 해서 정수 지정자를 한 것.
         //%c면 그냥 a만 출력된다.
+        //%d 정수(10진수), %f 실수 , %c 문자, %s 문장
 
 
     }
