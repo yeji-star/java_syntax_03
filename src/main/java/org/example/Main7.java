@@ -36,6 +36,11 @@ public class Main7 {
             }
         }
 
+        System.out.println("====");
+
+
+
+
 
     }
 
