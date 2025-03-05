@@ -1,27 +1,47 @@
 package org.example;
 
-// 문제 : 아래와 같이 출력해주세요.
-// 문제 : 단을 `* 1000`부터 `* -500`까지 출력해주세요.
+// 고쳐...
 
 class Main4 {
     public static void main(String[] args) {
-        int dan = 8;
 
+        int n = 3;
         int i = 1;
 
-        // 출력
+        while (i <= n) {
+            int j = i;
+            while (j < n) {
+                int k = 1;
+                System.out.print(" ");
+                while (k <= ( 2 * i - 1)) {
+                    System.out.print("*");
+                    k++;
+                }
+                System.out.println("");
+                i++;
+            }
 
-        i = i * 1000;
-
-        while (i >= -500) {
-            System.out.println(dan + " * " + i + " = " + dan * i);
-            i--;
         }
 
-        System.out.println("for문");
+        System.out.println("=====");
 
-        for(i=1;i>=-500;i--) {
-            System.out.println(dan + " * " + i + " = " + dan * i);
+        for(i = 1; i <= n; i++) {
+            for(int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        for(i = n - 1; i >= 1; i--) {
+            for(int k = n; k > i; k--) {
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
         }
 
     /*
