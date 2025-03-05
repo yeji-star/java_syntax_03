@@ -1,47 +1,19 @@
 package org.example;
 
-// 문제 : 1부터 5까지의 합을 출력해주세요.
-
 
 class Main5 {
     public static void main(String[] args) {
 
-        int i = 0;
-        int j = 1;
+        int age = 25;
+        double income = 55000;
+        boolean hasCriminalRecord = false;
 
-        /*i += j;
-        j++;
-        i += j;
-        j++;
-        i += j;
-        j++;
-        i += j;
-        j++;
-        i += j;
-         */
-
-
-        while (j <= 5) {
-            i += j;
-            System.out.println(i);
-            j++;
+        if(age > 21 &&  (income > 50000 || income <= 0) && !hasCriminalRecord) {
+            System.out.println("dd");
+        } else {
+            System.out.println("ss");
         }
 
-        System.out.println("====");
-
-        // 한번에 더한 것
-
-        System.out.println(i);
-
-        System.out.println("for문");
-
-        i = 0;
-
-        for (j=1;j<=5;j++){
-            i+=j;
-            System.out.println(i);
-
-        }
 
     }
 }
