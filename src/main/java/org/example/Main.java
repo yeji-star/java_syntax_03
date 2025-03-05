@@ -1,12 +1,12 @@
 package org.example;
 
+//아래의 코드를 따라친 다음
+//결과가 왜 이렇게 나오는가? 를 서술(순차적으로. 한국어로)
 
 
 class Main {
     public static void main(String[] args) {
 
-        //아래의 코드를 따라친 다음
-        //결과가 왜 이렇게 나오는가? 를 서술(순차적으로. 한국어로)
 
         int rows = 4; // 이 부분을 바꿔보세요
 
@@ -21,11 +21,13 @@ class Main {
                 /*         1    1  1 */
 
                 /* 변수 k의 초기값은 1
-               변수 k가 i보다 작거나 같을 때 k의 수는 증가 */
+               변수 k가 i보다 작거나 같을 때 k의 수는 증가
+                k의 기준에 값이 고정되면 직사각형이 됨 */
 
                 System.out.print("* ");
             }
             System.out.println();
+            /* 얘가 없으면 줄바꿈이 안됨 */
         }
 
         System.out.println("다중 while문으로 풀어쓰기");

@@ -1,23 +1,32 @@
 package org.example;
 
-// 문제 : -100부터 25까지 출력해주세요.
+// 이걸 분석해봐야함...
 
 class Main2 {
     public static void main(String[] args) {
         // 출력
 
-        int i = -100;
+        int n = 3;
 
-        while (i <= 25) {
-            System.out.println(i);
-            i++;
+        for(int i = 1; i <= n; i++) {
+            for(int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        for(int i = n - 1; i >= 1; i--) {
+            for(int k = n; k > i; k--) {
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
         }
 
-        System.out.println("for문");
-
-        for (i = -100; i<=25; i++) {
-            System.out.println(i);
-        }
 
     }
 }
