@@ -15,6 +15,35 @@ class Main5 {
 
 
         }
+
+        System.out.println("=====");
+
+        i = 1;
+
+        if ( i<=3) {
+            System.out.println(dan + " * " + i + " = " + dan * i );
+            i++;
+        }
+
+        if ( i<= 3) {
+            System.out.println(dan + " * " + i + " = " + dan * i );
+            i++;
+        }
+
+        System.out.println("i : " +i);
+
+        System.out.println("===");
+
+        i = 1; // 초기 (값)
+
+        while (i <= 3) { //(종료) 조건
+            System.out.println(10);
+            i+=1; //step(보폭, 방향)
+        }
+
+        System.out.println(i);
+
+
         // 출력
     /*
 
