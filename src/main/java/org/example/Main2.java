@@ -1,41 +1,17 @@
 package org.example;
 
-// 문제 : 아래와 같이 출력해주세요.
-// 문제 : dan 변수의 값에 따라 첫번째로 곱하는 수가 변하게 해주세요.
+// 문제 : -100부터 25까지 출력해주세요.
 
 class Main2 {
     public static void main(String[] args) {
-        int dan = 8;
-
-        String s = dan + " * 1 = 8\n";
-        s += dan + " * 2 = 16\n";
-        s += dan + " * 3 = 24";
-
-        System.out.println(s);
-
-        System.out.println("========");
-
-        System.out.println(dan + " * 1 = 8");
-        System.out.println(dan + " * 2 = 16");
-        System.out.println(dan + " * 3 = 24");
-        System.out.println(dan + " * 4 = 32");
-        System.out.println(dan + " * 5 = 40");
-        System.out.println(dan + " * 6 = 48");
-        System.out.println(dan + " * 7 = 56");
-        System.out.println(dan + " * 8 = 64");
-        System.out.println(dan + " * 9 = 72");
-
         // 출력
-    /*
-    8 * 1 = 8
-    8 * 2 = 16
-    8 * 3 = 24
-    8 * 4 = 32
-    8 * 5 = 40
-    8 * 6 = 48
-    8 * 7 = 56
-    8 * 8 = 64
-    8 * 9 = 72
-    */
+
+        int i = -100;
+
+        while (i <= 25) {
+            System.out.println(i);
+            i++;
+        }
+
     }
 }

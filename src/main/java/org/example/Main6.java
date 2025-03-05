@@ -1,22 +1,24 @@
 package org.example;
 
-class Main6 {
+// -100부터 25까지의 합을 출력해주세요.
+public class Main6 {
     public static void main(String[] args) {
 
-        int i = 5; // 초기 (값)
+        int i = 0;
+        int j = -100;
 
-        while (i == 4) { //(종료) 조건
+        while (j <= 25) {
+            i += j;
             System.out.println(i);
-            i+= 4; //step(보폭, 방향)
+            j++;
         }
 
-        int j = 10;
 
-        while (j<=3) {
-            System.out.println(2);
-            i++; // **중요**
-        }
 
-        System.out.println("i = " + j);
+        System.out.println("====");
+        System.out.println(i);
+
+
+
     }
-    }
+}

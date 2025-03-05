@@ -1,17 +1,29 @@
 package org.example;
 
-
-// 문제 : 아래와 같이 출력해주세요.
+// 문제 : 1부터 5까지 출력해주세요.
 
 class Main {
     public static void main(String[] args) {
 
-        String s = "8 * 1 = 8\n";
-        s += "8 * 2 = 16\n";
-        s += "8 * 3 = 24\n";
+        int i = 1;
 
-        System.out.println(s);
+        while (i <= 5) {
+            System.out.println(i);
+            i++;
+        }
 
 
+        System.out.println("for문");
+        for (int j=1; j<=5;j++) {
+            System.out.println(j);
+        }
+
+
+        // 출력
+        // 1
+        // 2
+        // 3
+        // 4
+        // 5
     }
 }
