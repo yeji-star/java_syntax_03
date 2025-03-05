@@ -6,19 +6,14 @@ package org.example;
 class Main5 {
     public static void main(String[] args) {
         int dan = 8;
-        int i = 1;
+        int i;
 
 
-        if (1001 > i) {
-            i += 1;
-            System.out.println(dan + " * " + i + " = " + dan * i );
+        for(i = 1; 1001 > i; i++) {
 
-            i++;
             System.out.println(dan + " * " + i + " = " + dan * i );
 
 
-        } else {
-            System.out.println("end");
         }
         // 출력
     /*

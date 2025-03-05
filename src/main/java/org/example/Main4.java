@@ -10,6 +10,13 @@ class Main4 {
         // 수정가능지역 시작
         int i = 1;
 
+        for(i=1;i<10; i++)
+            System.out.println(dan + " * " + i + " = " + dan * i);
+
+        System.out.println("===");
+
+        i = 1;
+
         System.out.println(dan + " * " + i + " = " + dan * i);
         i++;
         System.out.println(dan + " * " + i + " = " + dan * i);
