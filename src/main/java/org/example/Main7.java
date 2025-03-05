@@ -13,16 +13,30 @@ public class Main7 {
 
         while (i <= 10) {
 
-            int j = 1;
+            int k = 1;
 
-            while (j <= 3) {
-                System.out.println(j);
-                j++;
+            System.out.println("i = " + i);
+
+            while (k <= 3) {
+
+                System.out.println(k);
+
+                k++;
             }
 
             i++;
 
         }
+
+        System.out.println("====");
+
+        for (i=1;i<=10;i++) {
+            for(int j=1;j<=3;j++) {
+                System.out.println(j);
+            }
+        }
+
+
     }
 
 
