@@ -7,6 +7,13 @@ class Main3 {
     public static void main(String[] args) {
         int dan = 9;
 
+        String s = dan + " * 1 = " + ( dan * 1 ) + "\n";
+        s += dan + " * 2 = " + ( dan * 2 );
+
+        System.out.println(s);
+
+        System.out.println("=======");
+
         System.out.println(dan + " * 1 = " + ( dan * 1 ));
         System.out.println(dan + " * 2 = " + ( dan * 2 ));
         System.out.println(dan + " * 3 = " + ( dan * 3 ));

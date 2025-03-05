@@ -11,6 +11,28 @@ class Main4 {
         int i = 1;
 
         System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+        System.out.println(dan + " * " + i + " = " + dan * i);
+
+        System.out.println("=====");
+
+        i = 1;
+
+        System.out.println(dan + " * " + i + " = " + dan * i);
         System.out.println(dan + " * " + ( i + i )+ " = " + dan * ( i + i ));
         System.out.println(dan + " * " + ( i + i + i )+ " = " + dan * ( i + i + i ));
         System.out.println(dan + " * " + ( i + i + i + i )+ " = " + dan * ( i + i + i + i ));
